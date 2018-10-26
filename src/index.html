@@ -15,6 +15,13 @@
 
 <body>
     <div class="container">
+
+        <header>
+            <a href="#" class="thumbnail">
+                <img src="${require('./assets/img.png')}" alt="thumbnail">
+            </a>
+        </header>
+        
         <ul class="nav nav-tabs">
             <li role="presentation" data-controls="home" class="active">
                 <a href="#">HOME</a>
@@ -37,7 +44,7 @@
         </ul>
 
         <div class="content-page home active">
-            <div class="page-header">
+            <!-- <div class="page-header">
                 <h1>Years of experience
                     <small>highly recommended</small>
                 </h1>
@@ -46,9 +53,16 @@
             <div class="row">
                 <div class="col-xs-6 col-md-3">
                     <a href="#" class="thumbnail">
-                        <img src="" alt="thumbnail">
+                        <img src="${require('./assets/empire.png')}" alt="thumbnail">
                     </a>
                 </div>
+            </div> -->
+
+            <div class="jumbotron">
+                    <h1>Years of experience</h1>
+                    <p>Highly rated</p>
+                    <p><a class="btn btn-primary btn-lg" href="/" role="button">Learn more</a></p>
+                    
             </div>
 
 
@@ -75,12 +89,12 @@
         </div>
 
 
-        <footer>
+        <!-- <footer>
             contact us
             <a href="#" class="thumbnail">
                 <img src="${require('./assets/img.png')}" alt="thumbnail">
             </a>
-        </footer>
+        </footer> -->
 
     </div>
 </body>
