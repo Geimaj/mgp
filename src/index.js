@@ -1,3 +1,5 @@
-import style from "./styles/main.scss";
 
-// require('bootstrap')
+// require('./index.html')
+require('./styles/main.scss')
+
+require('./nav.js')

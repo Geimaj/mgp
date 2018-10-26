@@ -1,26 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>MGP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
 </head>
+
 <body>
     <div class="container">
-        <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">HOME</a></li>
-            <li role="presentation"><a href="#">SERVICES</a></li>
-            <li role="presentation"><a href="#">COMPLIANCE</a></li>
-            <li role="presentation"><a href="#">PROJECT</a></li>
-            <li role="presentation"><a href="#">REFERENCE</a></li>
-            <li role="presentation"><a href="#">CONTANT</a></li>
-            
+        <ul class="nav nav-tabs">
+            <li role="presentation" data-controls="home" class="active">
+                <a href="#">HOME</a>
+            </li>
+            <li role="presentation" data-controls="services">
+                <a href="#">SERVICES</a>
+            </li>
+            <li role="presentation" data-controls="compliance">
+                <a href="#">COMPLIANCE</a>
+            </li>
+            <li role="presentation" data-controls="projects">
+                <a href="#">PROJECTS</a>
+            </li>
+            <li role="presentation" data-controls="reference">
+                <a href="#">REFERENCE</a>
+            </li>
+            <li role="presentation" data-controls="contact">
+                <a href="#">CONTANT</a>
+            </li>
         </ul>
+
+        <div class="content-page home active">
+            <div class="page-header">
+                <h1>Years of experience
+                    <small>highly recommended</small>
+                </h1>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="" alt="thumbnail">
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="content-page services">
+            services
+        </div>
+
+        <div class="content-page compliance">
+            COMPLIANCE
+        </div>
+
+        <div class="content-page projects">
+            projects
+        </div>
+
+        <div class="content-page reference">
+            reference
+        </div>
+
+        <div class="content-page contact">
+            contact
+        </div>
+
+
+        <footer>
+            contact us
+            <a href="#" class="thumbnail">
+                <img src="${require('./assets/img.png')}" alt="thumbnail">
+            </a>
+        </footer>
 
     </div>
 </body>
+
 </html>

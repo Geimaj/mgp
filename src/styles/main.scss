@@ -1,4 +1,17 @@
-body {
+body, html {
     background: rgb(119, 44, 44);
+    height: 100%;
+}
 
+.container {
+    background: #fefefe;
+    height: 100%;
+}
+
+.content-page {
+    display: none;
+
+    &.active {
+        display: block;
+    }
 }
